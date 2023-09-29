@@ -5,7 +5,6 @@
 
 int[] week = {1, 2, 3, 4, 5, 6, 7};
 
-// int length = week.Length;
 int i = Convert.ToInt32(Console.ReadLine());
 
 if (i <= week[6])
