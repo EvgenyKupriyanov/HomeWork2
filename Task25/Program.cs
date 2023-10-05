@@ -8,6 +8,5 @@ Console.Write("Введите степень: ");
 int B = Convert.ToInt32(Console.ReadLine());
 
 double C = Math.Pow(A, B);
-double С = Math.Pow(A, B);
 
 Console.WriteLine(C);
