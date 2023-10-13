@@ -6,9 +6,19 @@
 
 Console.Write("Введите длину массива: ");
 int n = Convert.ToInt32(Console.ReadLine());
-int[] array = new int[n];
+// int[] array = new int[n];
 
-for (int i = 0; i < array.Length; i++)
-    array[i] = new Random().Next(0, 10);
+void f(int[] array = new int[n])
+{
+        int i = 0;
+         while (i < n)
+     {
+         Console.ReadLine();
+     }
+ }
 
-    Console.WriteLine($"[{string.Join(", ", array)}]");
+
+// for (int i = 0; i < array.Length; i++)
+//     array[i] = new Random().Next(0, 10);
+
+    Console.WriteLine($"[{string.Join(", ", f(n))}]");
